@@ -1,0 +1,244 @@
+{
+  "distance_threshold": {
+    "1": {
+      "typos_total": 10,
+      "typos_correct_top1": 8,
+      "typo_accuracy": 0.8,
+      "top3_hits": 8,
+      "top3_recall": 0.8,
+      "correct_tokens_total": 102,
+      "false_changes": 0,
+      "false_change_rate": 0.0
+    },
+    "2": {
+      "typos_total": 10,
+      "typos_correct_top1": 10,
+      "typo_accuracy": 1.0,
+      "top3_hits": 10,
+      "top3_recall": 1.0,
+      "correct_tokens_total": 102,
+      "false_changes": 0,
+      "false_change_rate": 0.0
+    }
+  },
+  "frequency_ranking": {
+    "with_frequency": {
+      "typos_total": 10,
+      "typos_correct_top1": 8,
+      "typo_accuracy": 0.8,
+      "top3_hits": 8,
+      "top3_recall": 0.8,
+      "correct_tokens_total": 102,
+      "false_changes": 0,
+      "false_change_rate": 0.0
+    },
+    "without_frequency": {
+      "typos_total": 10,
+      "typos_correct_top1": 8,
+      "typo_accuracy": 0.8,
+      "top3_hits": 8,
+      "top3_recall": 0.8,
+      "correct_tokens_total": 102,
+      "false_changes": 0,
+      "false_change_rate": 0.0
+    }
+  },
+  "protection": {
+    "rule": {
+      "protected": {
+        "correction": {
+          "typos_total": 10,
+          "typos_correct_top1": 8,
+          "typo_accuracy": 0.8,
+          "top3_hits": 8,
+          "top3_recall": 0.8,
+          "correct_tokens_total": 102,
+          "false_changes": 0,
+          "false_change_rate": 0.0
+        },
+        "ner": {
+          "overall": {
+            "TP": 30,
+            "FP": 1,
+            "FN": 1,
+            "precision": 0.9677,
+            "recall": 0.9677,
+            "f1": 0.9677
+          },
+          "per_type": {
+            "PERSON": {
+              "TP": 9,
+              "FP": 0,
+              "FN": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "ORG": {
+              "TP": 8,
+              "FP": 0,
+              "FN": 1,
+              "precision": 1.0,
+              "recall": 0.8889,
+              "f1": 0.9412
+            },
+            "LOC": {
+              "TP": 13,
+              "FP": 1,
+              "FN": 0,
+              "precision": 0.9286,
+              "recall": 1.0,
+              "f1": 0.963
+            }
+          }
+        }
+      },
+      "unprotected": {
+        "correction": {
+          "typos_total": 10,
+          "typos_correct_top1": 8,
+          "typo_accuracy": 0.8,
+          "top3_hits": 8,
+          "top3_recall": 0.8,
+          "correct_tokens_total": 102,
+          "false_changes": 0,
+          "false_change_rate": 0.0
+        },
+        "ner": {
+          "overall": {
+            "TP": 30,
+            "FP": 1,
+            "FN": 1,
+            "precision": 0.9677,
+            "recall": 0.9677,
+            "f1": 0.9677
+          },
+          "per_type": {
+            "PERSON": {
+              "TP": 9,
+              "FP": 0,
+              "FN": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "ORG": {
+              "TP": 8,
+              "FP": 0,
+              "FN": 1,
+              "precision": 1.0,
+              "recall": 0.8889,
+              "f1": 0.9412
+            },
+            "LOC": {
+              "TP": 13,
+              "FP": 1,
+              "FN": 0,
+              "precision": 0.9286,
+              "recall": 1.0,
+              "f1": 0.963
+            }
+          }
+        }
+      }
+    },
+    "model": {
+      "protected": {
+        "correction": {
+          "typos_total": 10,
+          "typos_correct_top1": 4,
+          "typo_accuracy": 0.4,
+          "top3_hits": 4,
+          "top3_recall": 0.4,
+          "correct_tokens_total": 102,
+          "false_changes": 0,
+          "false_change_rate": 0.0
+        },
+        "ner": {
+          "overall": {
+            "TP": 30,
+            "FP": 3,
+            "FN": 1,
+            "precision": 0.9091,
+            "recall": 0.9677,
+            "f1": 0.9375
+          },
+          "per_type": {
+            "PERSON": {
+              "TP": 9,
+              "FP": 0,
+              "FN": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "ORG": {
+              "TP": 8,
+              "FP": 2,
+              "FN": 1,
+              "precision": 0.8,
+              "recall": 0.8889,
+              "f1": 0.8421
+            },
+            "LOC": {
+              "TP": 13,
+              "FP": 1,
+              "FN": 0,
+              "precision": 0.9286,
+              "recall": 1.0,
+              "f1": 0.963
+            }
+          }
+        }
+      },
+      "unprotected": {
+        "correction": {
+          "typos_total": 10,
+          "typos_correct_top1": 8,
+          "typo_accuracy": 0.8,
+          "top3_hits": 8,
+          "top3_recall": 0.8,
+          "correct_tokens_total": 102,
+          "false_changes": 0,
+          "false_change_rate": 0.0
+        },
+        "ner": {
+          "overall": {
+            "TP": 30,
+            "FP": 3,
+            "FN": 1,
+            "precision": 0.9091,
+            "recall": 0.9677,
+            "f1": 0.9375
+          },
+          "per_type": {
+            "PERSON": {
+              "TP": 9,
+              "FP": 0,
+              "FN": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "ORG": {
+              "TP": 8,
+              "FP": 2,
+              "FN": 1,
+              "precision": 0.8,
+              "recall": 0.8889,
+              "f1": 0.8421
+            },
+            "LOC": {
+              "TP": 13,
+              "FP": 1,
+              "FN": 0,
+              "precision": 0.9286,
+              "recall": 1.0,
+              "f1": 0.963
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{"id": "C01", "query": "музей", "expected": ["S3"]}
+{"id": "C02", "query": "\"истории архитектуры\"", "expected": ["S3"]}
+{"id": "C03", "query": "музей AND NOT обзор", "expected": []}
+{"id": "C04", "query": "музей AND обзор", "expected": ["S3"]}
+{"id": "C05", "query": "живопись OR археология", "expected": ["S4", "S8"]}
+{"id": "C06", "query": "Москва OR Московский", "expected": ["S1"]}
+{"id": "C07", "query": "1480", "expected": ["S1"]}
+{"id": "C08", "query": "1917 AND Петроград", "expected": ["S5"]}
+{"id": "C09", "query": "Петроград NEAR/3 1917", "expected": ["S5"]}
+{"id": "C10", "query": "1917 NEAR/3 центром", "expected": ["S5"]}
+{"id": "C11", "query": "\"культурный слой\"", "expected": ["S8"]}
+{"id": "C12", "query": "культурный NEAR/2 слой", "expected": ["S8"]}
+{"id": "C13", "query": "Пушкин AND город", "expected": ["S7"]}
+{"id": "C14", "query": "\"Александр Пушкин\"", "expected": ["S7"]}
+{"id": "C15", "query": "(собор OR собора) AND (Пскова OR Новгород)", "expected": ["S2", "S6"]}
+{"id": "C16", "query": "NOT музей", "expected": ["S1", "S2", "S4", "S5", "S6", "S7", "S8"]}
+{"id": "C17", "query": "неизвестныйтермин", "expected": []}
+{"id": "C18", "query": "\"музей музей\"", "expected": []}
+{"id": "C19", "query": "(археология AND 1380) OR (живопись AND Репина)", "expected": ["S4", "S8"]}
+{"id": "C20", "query": "Ленинград OR Петроград", "expected": ["S5"]}

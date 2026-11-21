@@ -1,0 +1,122 @@
+[
+  {
+    "id": "doc01",
+    "file": "doc01_lomonosov.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Ломоносов,_Михаил_Васильевич"
+  },
+  {
+    "id": "doc02",
+    "file": "doc02_mendeleev.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Менделеев,_Дмитрий_Иванович"
+  },
+  {
+    "id": "doc03",
+    "file": "doc03_tsiolkovsky.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Циолковский,_Константин_Эдуардович"
+  },
+  {
+    "id": "doc04",
+    "file": "doc04_gagarin.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Гагарин,_Юрий_Алексеевич"
+  },
+  {
+    "id": "doc05",
+    "file": "doc05_korolev.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Королёв,_Сергей_Павлович"
+  },
+  {
+    "id": "doc06",
+    "file": "doc06_pushkin.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Пушкин,_Александр_Сергеевич"
+  },
+  {
+    "id": "doc07",
+    "file": "doc07_tolstoy.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Толстой,_Лев_Николаевич"
+  },
+  {
+    "id": "doc08",
+    "file": "doc08_dostoevsky.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Достоевский,_Фёдор_Михайлович"
+  },
+  {
+    "id": "doc09",
+    "file": "doc09_chekhov.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Чехов,_Антон_Павлович"
+  },
+  {
+    "id": "doc10",
+    "file": "doc10_bulgakov.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Булгаков,_Михаил_Афанасьевич"
+  },
+  {
+    "id": "doc11",
+    "file": "doc11_yandex.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Яндекс"
+  },
+  {
+    "id": "doc12",
+    "file": "doc12_sberbank.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Сбербанк_России"
+  },
+  {
+    "id": "doc13",
+    "file": "doc13_gazprom.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Газпром"
+  },
+  {
+    "id": "doc14",
+    "file": "doc14_roscosmos.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Роскосмос"
+  },
+  {
+    "id": "doc15",
+    "file": "doc15_hermitage.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Государственный_Эрмитаж"
+  },
+  {
+    "id": "doc16",
+    "file": "doc16_tretyakov.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Государственная_Третьяковская_галерея"
+  },
+  {
+    "id": "doc17",
+    "file": "doc17_universities.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Казанский_федеральный_университет"
+  },
+  {
+    "id": "doc18",
+    "file": "doc18_transport_industry.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Российские_железные_дороги"
+  },
+  {
+    "id": "doc19",
+    "file": "doc19_rare_people.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Чебышёв,_Пафнутий_Львович"
+  },
+  {
+    "id": "doc20",
+    "file": "doc20_rare_places.txt",
+    "source_type": "учебная адаптация по справочному источнику",
+    "source_url": "https://ru.wikipedia.org/wiki/Кижи"
+  }
+]

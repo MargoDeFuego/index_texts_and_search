@@ -1,0 +1,674 @@
+[
+  {
+    "id": "q01",
+    "category": "clean",
+    "original_text": "Найти статьи о Михаиле Ломоносове в Москве.",
+    "correct_text": "Найти статьи о Михаиле Ломоносове в Москве.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 15,
+        "end": 33,
+        "text": "Михаиле Ломоносове",
+        "type": "PERSON"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 15,
+        "end": 33,
+        "text": "Михаиле Ломоносове",
+        "type": "PERSON"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "category": "clean",
+    "original_text": "Новости компании Яндекс из Москвы.",
+    "correct_text": "Новости компании Яндекс из Москвы.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "text": "Яндекс",
+        "type": "ORG"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "text": "Москвы",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "text": "Яндекс",
+        "type": "ORG"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "text": "Москвы",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "category": "clean",
+    "original_text": "История Государственного Эрмитажа в Санкт-Петербурге.",
+    "correct_text": "История Государственного Эрмитажа в Санкт-Петербурге.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 33,
+        "text": "Государственного Эрмитажа",
+        "type": "ORG"
+      },
+      {
+        "start": 36,
+        "end": 52,
+        "text": "Санкт-Петербурге",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 33,
+        "text": "Государственного Эрмитажа",
+        "type": "ORG"
+      },
+      {
+        "start": 36,
+        "end": 52,
+        "text": "Санкт-Петербурге",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "category": "clean",
+    "original_text": "Биография Юрия Гагарина и космодром Байконур.",
+    "correct_text": "Биография Юрия Гагарина и космодром Байконур.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "text": "Юрия Гагарина",
+        "type": "PERSON"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "text": "Байконур",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "text": "Юрия Гагарина",
+        "type": "PERSON"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "text": "Байконур",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "category": "clean",
+    "original_text": "Материалы Московского государственного университета.",
+    "correct_text": "Материалы Московского государственного университета.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 10,
+        "end": 51,
+        "text": "Московского государственного университета",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 10,
+        "end": 51,
+        "text": "Московского государственного университета",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "category": "common_typo",
+    "original_text": "Найти научные стати Дмитрия Менделеева.",
+    "correct_text": "Найти научные статьи Дмитрия Менделеева.",
+    "typos": [
+      {
+        "start": 14,
+        "end": 19,
+        "wrong": "стати",
+        "correct": "статьи",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 20,
+        "end": 38,
+        "text": "Дмитрия Менделеева",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 21,
+        "end": 39,
+        "text": "Дмитрия Менделеева",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "category": "common_typo",
+    "original_text": "Показать биографию Антона Чехова и его расказы.",
+    "correct_text": "Показать биографию Антона Чехова и его рассказы.",
+    "typos": [
+      {
+        "start": 39,
+        "end": 46,
+        "wrong": "расказы",
+        "correct": "рассказы",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 19,
+        "end": 32,
+        "text": "Антона Чехова",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 19,
+        "end": 32,
+        "text": "Антона Чехова",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "category": "common_typo",
+    "original_text": "Где находится Третьяковская галерея и как туда доехть?",
+    "correct_text": "Где находится Третьяковская галерея и как туда доехать?",
+    "typos": [
+      {
+        "start": 47,
+        "end": 53,
+        "wrong": "доехть",
+        "correct": "доехать",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 14,
+        "end": 35,
+        "text": "Третьяковская галерея",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 14,
+        "end": 35,
+        "text": "Третьяковская галерея",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "category": "common_typo",
+    "original_text": "Найти сважие новости компании Сбербанк.",
+    "correct_text": "Найти свежие новости компании Сбербанк.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 12,
+        "wrong": "сважие",
+        "correct": "свежие",
+        "kind": "substitution"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "text": "Сбербанк",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "text": "Сбербанк",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "category": "common_typo",
+    "original_text": "Показать работы Сергея Королёва о космичсеких аппаратах.",
+    "correct_text": "Показать работы Сергея Королёва о космических аппаратах.",
+    "typos": [
+      {
+        "start": 34,
+        "end": 45,
+        "wrong": "космичсеких",
+        "correct": "космических",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 16,
+        "end": 31,
+        "text": "Сергея Королёва",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 16,
+        "end": 31,
+        "text": "Сергея Королёва",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "category": "entity_typo",
+    "original_text": "Найти статьи Ломоносва о физике.",
+    "correct_text": "Найти статьи Ломоносова о физике.",
+    "typos": [
+      {
+        "start": 13,
+        "end": 22,
+        "wrong": "Ломоносва",
+        "correct": "Ломоносова",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "text": "Ломоносва",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "text": "Ломоносова",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "category": "entity_typo",
+    "original_text": "Показать офис Яднекс в Москве.",
+    "correct_text": "Показать офис Яндекс в Москве.",
+    "typos": [
+      {
+        "start": 14,
+        "end": 20,
+        "wrong": "Яднекс",
+        "correct": "Яндекс",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "text": "Яднекс",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "text": "Яндекс",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "category": "entity_typo",
+    "original_text": "История Санкт-Петебурга и Эрмитажа.",
+    "correct_text": "История Санкт-Петербурга и Эрмитажа.",
+    "typos": [
+      {
+        "start": 8,
+        "end": 23,
+        "wrong": "Санкт-Петебурга",
+        "correct": "Санкт-Петербурга",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "text": "Санкт-Петебурга",
+        "type": "LOC"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "text": "Эрмитажа",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 24,
+        "text": "Санкт-Петербурга",
+        "type": "LOC"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "text": "Эрмитажа",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "category": "entity_typo",
+    "original_text": "Биография Юрия Гагарина связана с Байконром.",
+    "correct_text": "Биография Юрия Гагарина связана с Байконуром.",
+    "typos": [
+      {
+        "start": 34,
+        "end": 43,
+        "wrong": "Байконром",
+        "correct": "Байконуром",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "text": "Юрия Гагарина",
+        "type": "PERSON"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "text": "Байконром",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "text": "Юрия Гагарина",
+        "type": "PERSON"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "text": "Байконуром",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "category": "entity_typo",
+    "original_text": "Материалы Московского государственого университета.",
+    "correct_text": "Материалы Московского государственного университета.",
+    "typos": [
+      {
+        "start": 22,
+        "end": 37,
+        "wrong": "государственого",
+        "correct": "государственного",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 10,
+        "end": 50,
+        "text": "Московского государственого университета",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 10,
+        "end": 51,
+        "text": "Московского государственного университета",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "category": "rare_correct",
+    "original_text": "Найти сведения о Пафнутии Чебышёве в Москве.",
+    "correct_text": "Найти сведения о Пафнутии Чебышёве в Москве.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 17,
+        "end": 34,
+        "text": "Пафнутии Чебышёве",
+        "type": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 17,
+        "end": 34,
+        "text": "Пафнутии Чебышёве",
+        "type": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "category": "rare_correct",
+    "original_text": "Материалы о Всеволоде Мейерхольде в Москве.",
+    "correct_text": "Материалы о Всеволоде Мейерхольде в Москве.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 12,
+        "end": 33,
+        "text": "Всеволоде Мейерхольде",
+        "type": "PERSON"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 12,
+        "end": 33,
+        "text": "Всеволоде Мейерхольде",
+        "type": "PERSON"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "category": "rare_correct",
+    "original_text": "История города Мышкин в Ярославской области.",
+    "correct_text": "История города Мышкин в Ярославской области.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "text": "Мышкин",
+        "type": "LOC"
+      },
+      {
+        "start": 24,
+        "end": 43,
+        "text": "Ярославской области",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "text": "Мышкин",
+        "type": "LOC"
+      },
+      {
+        "start": 24,
+        "end": 43,
+        "text": "Ярославской области",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "category": "rare_correct",
+    "original_text": "Архитектура острова Кижи в Карелии.",
+    "correct_text": "Архитектура острова Кижи в Карелии.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "text": "Кижи",
+        "type": "LOC"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "text": "Карелии",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "text": "Кижи",
+        "type": "LOC"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "text": "Карелии",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "category": "rare_correct",
+    "original_text": "Новости Университета Иннополис из Татарстана.",
+    "correct_text": "Новости Университета Иннополис из Татарстана.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 30,
+        "text": "Университета Иннополис",
+        "type": "ORG"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "text": "Татарстана",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 30,
+        "text": "Университета Иннополис",
+        "type": "ORG"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "text": "Татарстана",
+        "type": "LOC"
+      }
+    ]
+  }
+]

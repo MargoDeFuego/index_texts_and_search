@@ -1,0 +1,52 @@
+<service_words>
+
+    <!-- Базовые служебные слова -->
+    <word>как</word>
+    <word>в</word>
+    <word>на</word>
+    <word>к</word>
+    <word>по</word>
+    <word>до</word>
+    <word>от</word>
+    <word>для</word>
+    <word>из</word>
+    <word>при</word>
+    <word>над</word>
+    <word>под</word>
+    <word>через</word>
+    <word>между</word>
+
+    <!-- Частицы -->
+    <word>же</word>
+    <word>ли</word>
+    <word>бы</word>
+    <word>то</word>
+
+    <!-- Союзы -->
+    <word>и</word>
+    <word>или</word>
+    <word>но</word>
+    <word>а</word>
+    <word>что</word>
+
+    <!-- Местоимения -->
+    <word>я</word>
+    <word>ты</word>
+    <word>он</word>
+    <word>она</word>
+    <word>мы</word>
+    <word>вы</word>
+    <word>они</word>
+    <word>это</word>
+    <word>тот</word>
+    <word>эта</word>
+    <word>эти</word>
+
+    <!-- Вопросительные слова -->
+    <word>где</word>
+    <word>когда</word>
+    <word>зачем</word>
+    <word>почему</word>
+    <word>сколько</word>
+
+</service_words>

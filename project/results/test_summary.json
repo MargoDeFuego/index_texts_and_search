@@ -1,0 +1,276 @@
+{
+  "config": {
+    "threshold": 2,
+    "use_frequencies": true,
+    "normalization": "lowercase + ё→е; hyphens kept; stopwords kept",
+    "selected_on": "queries_dev.json only"
+  },
+  "baseline": {
+    "rule": {
+      "overall": {
+        "TP": 28,
+        "FP": 0,
+        "FN": 4,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333
+      },
+      "per_type": {
+        "PERSON": {
+          "TP": 6,
+          "FP": 0,
+          "FN": 1,
+          "precision": 1.0,
+          "recall": 0.8571,
+          "f1": 0.9231
+        },
+        "ORG": {
+          "TP": 7,
+          "FP": 0,
+          "FN": 2,
+          "precision": 1.0,
+          "recall": 0.7778,
+          "f1": 0.875
+        },
+        "LOC": {
+          "TP": 15,
+          "FP": 0,
+          "FN": 1,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.9677
+        }
+      }
+    },
+    "model": {
+      "overall": {
+        "TP": 30,
+        "FP": 4,
+        "FN": 2,
+        "precision": 0.8824,
+        "recall": 0.9375,
+        "f1": 0.9091
+      },
+      "per_type": {
+        "PERSON": {
+          "TP": 7,
+          "FP": 2,
+          "FN": 0,
+          "precision": 0.7778,
+          "recall": 1.0,
+          "f1": 0.875
+        },
+        "ORG": {
+          "TP": 8,
+          "FP": 2,
+          "FN": 1,
+          "precision": 0.8,
+          "recall": 0.8889,
+          "f1": 0.8421
+        },
+        "LOC": {
+          "TP": 15,
+          "FP": 0,
+          "FN": 1,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.9677
+        }
+      }
+    }
+  },
+  "combinations": {
+    "rule_A": {
+      "correction": {
+        "typos_total": 10,
+        "typos_correct_top1": 10,
+        "typo_accuracy": 1.0,
+        "top3_hits": 10,
+        "top3_recall": 1.0,
+        "correct_tokens_total": 92,
+        "false_changes": 0,
+        "false_change_rate": 0.0
+      },
+      "ner": {
+        "overall": {
+          "TP": 32,
+          "FP": 0,
+          "FN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "per_type": {
+          "PERSON": {
+            "TP": 7,
+            "FP": 0,
+            "FN": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "ORG": {
+            "TP": 9,
+            "FP": 0,
+            "FN": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "LOC": {
+            "TP": 16,
+            "FP": 0,
+            "FN": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      }
+    },
+    "rule_B": {
+      "correction": {
+        "typos_total": 10,
+        "typos_correct_top1": 9,
+        "typo_accuracy": 0.9,
+        "top3_hits": 9,
+        "top3_recall": 0.9,
+        "correct_tokens_total": 92,
+        "false_changes": 0,
+        "false_change_rate": 0.0
+      },
+      "ner": {
+        "overall": {
+          "TP": 32,
+          "FP": 0,
+          "FN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "per_type": {
+          "PERSON": {
+            "TP": 7,
+            "FP": 0,
+            "FN": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "ORG": {
+            "TP": 9,
+            "FP": 0,
+            "FN": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "LOC": {
+            "TP": 16,
+            "FP": 0,
+            "FN": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      }
+    },
+    "model_A": {
+      "correction": {
+        "typos_total": 10,
+        "typos_correct_top1": 10,
+        "typo_accuracy": 1.0,
+        "top3_hits": 10,
+        "top3_recall": 1.0,
+        "correct_tokens_total": 92,
+        "false_changes": 0,
+        "false_change_rate": 0.0
+      },
+      "ner": {
+        "overall": {
+          "TP": 30,
+          "FP": 4,
+          "FN": 2,
+          "precision": 0.8824,
+          "recall": 0.9375,
+          "f1": 0.9091
+        },
+        "per_type": {
+          "PERSON": {
+            "TP": 7,
+            "FP": 2,
+            "FN": 0,
+            "precision": 0.7778,
+            "recall": 1.0,
+            "f1": 0.875
+          },
+          "ORG": {
+            "TP": 8,
+            "FP": 2,
+            "FN": 1,
+            "precision": 0.8,
+            "recall": 0.8889,
+            "f1": 0.8421
+          },
+          "LOC": {
+            "TP": 15,
+            "FP": 0,
+            "FN": 1,
+            "precision": 1.0,
+            "recall": 0.9375,
+            "f1": 0.9677
+          }
+        }
+      }
+    },
+    "model_B": {
+      "correction": {
+        "typos_total": 10,
+        "typos_correct_top1": 4,
+        "typo_accuracy": 0.4,
+        "top3_hits": 4,
+        "top3_recall": 0.4,
+        "correct_tokens_total": 92,
+        "false_changes": 0,
+        "false_change_rate": 0.0
+      },
+      "ner": {
+        "overall": {
+          "TP": 30,
+          "FP": 4,
+          "FN": 2,
+          "precision": 0.8824,
+          "recall": 0.9375,
+          "f1": 0.9091
+        },
+        "per_type": {
+          "PERSON": {
+            "TP": 7,
+            "FP": 2,
+            "FN": 0,
+            "precision": 0.7778,
+            "recall": 1.0,
+            "f1": 0.875
+          },
+          "ORG": {
+            "TP": 8,
+            "FP": 2,
+            "FN": 1,
+            "precision": 0.8,
+            "recall": 0.8889,
+            "f1": 0.8421
+          },
+          "LOC": {
+            "TP": 15,
+            "FP": 0,
+            "FN": 1,
+            "precision": 1.0,
+            "recall": 0.9375,
+            "f1": 0.9677
+          }
+        }
+      }
+    }
+  }
+}

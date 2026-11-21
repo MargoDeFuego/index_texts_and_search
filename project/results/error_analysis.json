@@ -1,0 +1,628 @@
+[
+  {
+    "kind": "коррекция помогла распознаванию",
+    "query": "Показать офис Яднекс в Москве.",
+    "explanation": "В A при threshold=2 «Яднекс» исправляется в «Яндекс», после чего справочник распознаёт ORG.",
+    "rule_A": {
+      "original_text": "Показать офис Яднекс в Москве.",
+      "proposed_text": "Показать офис Яндекс в Москве.",
+      "changes": [
+        {
+          "start": 14,
+          "end": 20,
+          "wrong": "Яднекс",
+          "correct": "Яндекс",
+          "distance": 2,
+          "alternatives": [
+            {
+              "word": "Яндекс",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 14,
+          "new_end": 20
+        }
+      ],
+      "entities": [
+        {
+          "start": 14,
+          "end": 20,
+          "text": "Яндекс",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_yandex"
+        },
+        {
+          "start": 23,
+          "end": 29,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    "model_B": {
+      "original_text": "Показать офис Яднекс в Москве.",
+      "proposed_text": "Показать офис Яднекс в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 9,
+          "end": 20,
+          "text": "офис Яднекс",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 23,
+          "end": 29,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          9,
+          20
+        ],
+        [
+          23,
+          29
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 14,
+          "end": 20,
+          "word": "Яднекс",
+          "candidates": [
+            {
+              "word": "яндекс",
+              "distance": 2
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  },
+  {
+    "kind": "название было испорчено",
+    "query": "История города Кадом.",
+    "explanation": "Отдельный демонстрационный пример, не включённый в метрики: rule+A не знает редкий топоним и заменяет «Кадом» на частотное «Рядом» при d=2.",
+    "rule_A": {
+      "original_text": "История города Кадом.",
+      "proposed_text": "История города Рядом.",
+      "changes": [
+        {
+          "start": 15,
+          "end": 20,
+          "wrong": "Кадом",
+          "correct": "Рядом",
+          "distance": 2,
+          "alternatives": [
+            {
+              "word": "Рядом",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 15,
+          "new_end": 20
+        }
+      ],
+      "entities": [],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    "model_B": {
+      "original_text": "История города Кадом.",
+      "proposed_text": "История города Кадом.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 14,
+          "text": "города",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "text": "Кадом",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          14
+        ],
+        [
+          15,
+          20
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  },
+  {
+    "kind": "редкое корректное имя сохранено",
+    "query": "Найти сведения о Пафнутии Чебышёве в Москве.",
+    "explanation": "Редкое имя есть в независимом справочнике и корпусе, поэтому сохраняется и распознаётся как PERSON.",
+    "rule_A": {
+      "original_text": "Найти сведения о Пафнутии Чебышёве в Москве.",
+      "proposed_text": "Найти сведения о Пафнутии Чебышёве в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 17,
+          "end": 34,
+          "text": "Пафнутии Чебышёве",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_chebyshev"
+        },
+        {
+          "start": 37,
+          "end": 43,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    "model_B": {
+      "original_text": "Найти сведения о Пафнутии Чебышёве в Москве.",
+      "proposed_text": "Найти сведения о Пафнутии Чебышёве в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 17,
+          "end": 34,
+          "text": "Пафнутии Чебышёве",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 37,
+          "end": 43,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          17,
+          34
+        ],
+        [
+          37,
+          43
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  },
+  {
+    "kind": "сущность пропущена",
+    "query": "Новости Роскомоса из Москвы.",
+    "explanation": "До коррекции словарный NER не знает ошибочную форму «Роскомоса» и пропускает ORG; после коррекции A сущность появляется.",
+    "rule_A": {
+      "original_text": "Новости Роскомоса из Москвы.",
+      "proposed_text": "Новости Роскосмоса из Москвы.",
+      "changes": [
+        {
+          "start": 8,
+          "end": 17,
+          "wrong": "Роскомоса",
+          "correct": "Роскосмоса",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Роскосмоса",
+              "distance": 1,
+              "frequency": 1
+            },
+            {
+              "word": "Роскосмос",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 8,
+          "new_end": 18
+        }
+      ],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Роскосмоса",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_roscosmos"
+        },
+        {
+          "start": 22,
+          "end": 28,
+          "text": "Москвы",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    "model_B": {
+      "original_text": "Новости Роскомоса из Москвы.",
+      "proposed_text": "Новости Роскомоса из Москвы.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 17,
+          "text": "Роскомоса",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 21,
+          "end": 27,
+          "text": "Москвы",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          17
+        ],
+        [
+          21,
+          27
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 8,
+          "end": 17,
+          "word": "Роскомоса",
+          "candidates": [
+            {
+              "word": "роскосмоса",
+              "distance": 1
+            },
+            {
+              "word": "роскосмос",
+              "distance": 2
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  },
+  {
+    "kind": "исправление неоднозначно",
+    "query": "Показать историю железных дорго России.",
+    "explanation": "Для «дорго» при d=2 есть варианты «дорог» и «дороги»; top-1 выбирается по расстоянию, частоте и алфавиту.",
+    "rule_A": {
+      "original_text": "Показать историю железных дорго России.",
+      "proposed_text": "Показать историю железных дорог России.",
+      "changes": [
+        {
+          "start": 26,
+          "end": 31,
+          "wrong": "дорго",
+          "correct": "дорог",
+          "distance": 2,
+          "alternatives": [
+            {
+              "word": "дорог",
+              "distance": 2,
+              "frequency": 1
+            },
+            {
+              "word": "дороги",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 26,
+          "new_end": 31
+        }
+      ],
+      "entities": [],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    "model_B": {
+      "original_text": "Показать историю железных дорго России.",
+      "proposed_text": "Показать историю железных дорго России.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 17,
+          "end": 31,
+          "text": "железных дорго",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 32,
+          "end": 38,
+          "text": "России",
+          "type": "PERSON",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          17,
+          31
+        ],
+        [
+          32,
+          38
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 26,
+          "end": 31,
+          "word": "дорго",
+          "candidates": [
+            {
+              "word": "дорог",
+              "distance": 2
+            },
+            {
+              "word": "дороги",
+              "distance": 2
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  },
+  {
+    "kind": "опечатка образовала существующее слово",
+    "query": "История железных город России.",
+    "explanation": "Демонстрационный пример вне метрик: «город» есть в словаре, поэтому корректор неизвестных слов не понимает, что требовалось «дорог».",
+    "rule_A": {
+      "original_text": "История железных город России.",
+      "proposed_text": "История железных город России.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 23,
+          "end": 29,
+          "text": "России",
+          "type": "LOC",
+          "source": "context_rule"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    "model_B": {
+      "original_text": "История железных город России.",
+      "proposed_text": "История железных город России.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 16,
+          "text": "железных",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 23,
+          "end": 29,
+          "text": "России",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          16
+        ],
+        [
+          23,
+          29
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  },
+  {
+    "kind": "защита оставила опечатку внутри сущности",
+    "query": "Найти офис Яднекс рядом с Москвой.",
+    "explanation": "Модель в B распознаёт «офис Яднекс» как ORG и защищает диапазон; «Яднекс» остаётся неисправленным. Это ожидаемый компромисс B.",
+    "rule_A": {
+      "original_text": "Найти офис Яднекс рядом с Москвой.",
+      "proposed_text": "Найти офис Яндекс рядом с Москвой.",
+      "changes": [
+        {
+          "start": 11,
+          "end": 17,
+          "wrong": "Яднекс",
+          "correct": "Яндекс",
+          "distance": 2,
+          "alternatives": [
+            {
+              "word": "Яндекс",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 11,
+          "new_end": 17
+        }
+      ],
+      "entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "text": "Яндекс",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_yandex"
+        },
+        {
+          "start": 26,
+          "end": 33,
+          "text": "Москвой",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    "model_B": {
+      "original_text": "Найти офис Яднекс рядом с Москвой.",
+      "proposed_text": "Найти офис Яднекс рядом с Москвой.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 17,
+          "text": "офис Яднекс",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 26,
+          "end": 33,
+          "text": "Москвой",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          6,
+          17
+        ],
+        [
+          26,
+          33
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 11,
+          "end": 17,
+          "word": "Яднекс",
+          "candidates": [
+            {
+              "word": "яндекс",
+              "distance": 2
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  }
+]

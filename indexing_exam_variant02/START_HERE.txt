@@ -1,0 +1,38 @@
+БЫСТРЫЙ ЗАПУСК (Windows PowerShell, из папки проекта)
+
+1) Окружение:
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip install -e .
+python -m spacy download ru_core_news_sm
+
+2) Корпус для быстрой офлайн-проверки:
+python scripts/build_demo_corpus.py --count 220 --out data/corpus.jsonl
+
+Для сдачи вместо пункта 2 используйте научный корпус:
+python scripts/fetch_openalex.py --limit 220 --out data/corpus.jsonl
+
+Если нужен full text и есть OPENALEX_API_KEY:
+$env:OPENALEX_API_KEY="ваш_ключ"
+python scripts/fetch_openalex.py --limit 220 --fulltext --out data/corpus.jsonl
+
+3) Подготовка данных:
+python scripts/prepare_exam_data.py --corpus data/corpus.jsonl
+
+4) Все задания:
+python run_all.py --corpus data/corpus.jsonl
+
+5) Тесты:
+pytest -q
+
+Отдельный запуск:
+python -m indexing_exam.task02 --corpus data/corpus.jsonl
+python -m indexing_exam.task03 --corpus data/corpus.jsonl
+python -m indexing_exam.task04 --corpus data/corpus.jsonl
+python -m indexing_exam.task07 --corpus data/corpus.jsonl --prepare-pairs
+python -m indexing_exam.task11 --corpus data/corpus.jsonl
+
+Подробности: README.md
+Что говорить на защите: REPORT_GUIDE.md

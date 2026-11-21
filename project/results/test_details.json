@@ -1,0 +1,3329 @@
+{
+  "rule_A": [
+    {
+      "original_text": "Книги Льва Толстого о Ясной Поляне.",
+      "proposed_text": "Книги Льва Толстого о Ясной Поляне.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "text": "Льва Толстого",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_tolstoy"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "text": "Ясной Поляне",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_yasnaya"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Проекты Роскосмоса в Москве.",
+      "proposed_text": "Проекты Роскосмоса в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Роскосмоса",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_roscosmos"
+        },
+        {
+          "start": 21,
+          "end": 27,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Казанского федерального университета в Казани.",
+      "proposed_text": "История Казанского федерального университета в Казани.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 44,
+          "text": "Казанского федерального университета",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_kfu"
+        },
+        {
+          "start": 47,
+          "end": 53,
+          "text": "Казани",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_kazan"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "proposed_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 10,
+          "end": 28,
+          "text": "Александру Пушкину",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_pushkin"
+        },
+        {
+          "start": 31,
+          "end": 47,
+          "text": "Санкт-Петербурге",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_spb"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+      "proposed_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "КАМАЗ",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_kamaz"
+        },
+        {
+          "start": 25,
+          "end": 42,
+          "text": "Набережных Челнах",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_nab_chelny"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Найти последниие новости Газпрома.",
+      "proposed_text": "Найти последние новости Газпрома.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 16,
+          "wrong": "последниие",
+          "correct": "последние",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Последние",
+              "distance": 1,
+              "frequency": 4
+            }
+          ],
+          "new_start": 6,
+          "new_end": 15
+        }
+      ],
+      "entities": [
+        {
+          "start": 24,
+          "end": 32,
+          "text": "Газпрома",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_gazprom"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Показать историю железных дорго России.",
+      "proposed_text": "Показать историю железных дорог России.",
+      "changes": [
+        {
+          "start": 26,
+          "end": 31,
+          "wrong": "дорго",
+          "correct": "дорог",
+          "distance": 2,
+          "alternatives": [
+            {
+              "word": "дорог",
+              "distance": 2,
+              "frequency": 1
+            },
+            {
+              "word": "дороги",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 26,
+          "new_end": 31
+        }
+      ],
+      "entities": [],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Где расположен музй Эрмитаж?",
+      "proposed_text": "Где расположен музей Эрмитаж?",
+      "changes": [
+        {
+          "start": 15,
+          "end": 19,
+          "wrong": "музй",
+          "correct": "музей",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "музей",
+              "distance": 1,
+              "frequency": 6
+            },
+            {
+              "word": "музеи",
+              "distance": 2,
+              "frequency": 2
+            },
+            {
+              "word": "музея",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 15,
+          "new_end": 20
+        }
+      ],
+      "entities": [
+        {
+          "start": 21,
+          "end": 28,
+          "text": "Эрмитаж",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_hermitage"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Найти инормацию о Новосибирском государственном университете.",
+      "proposed_text": "Найти информацию о Новосибирском государственном университете.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 15,
+          "wrong": "инормацию",
+          "correct": "информацию",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Информацию",
+              "distance": 1,
+              "frequency": 7
+            }
+          ],
+          "new_start": 6,
+          "new_end": 16
+        }
+      ],
+      "entities": [
+        {
+          "start": 19,
+          "end": 61,
+          "text": "Новосибирском государственном университете",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_nsu"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Показать извесные книги Фёдора Достоевского.",
+      "proposed_text": "Показать известные книги Фёдора Достоевского.",
+      "changes": [
+        {
+          "start": 9,
+          "end": 17,
+          "wrong": "извесные",
+          "correct": "известные",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Известные",
+              "distance": 1,
+              "frequency": 4
+            },
+            {
+              "word": "известны",
+              "distance": 2,
+              "frequency": 2
+            }
+          ],
+          "new_start": 9,
+          "new_end": 18
+        }
+      ],
+      "entities": [
+        {
+          "start": 25,
+          "end": 44,
+          "text": "Фёдора Достоевского",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_dostoevsky"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Книги Льва Толстго о Ясной Поляне.",
+      "proposed_text": "Книги Льва Толстого о Ясной Поляне.",
+      "changes": [
+        {
+          "start": 11,
+          "end": 18,
+          "wrong": "Толстго",
+          "correct": "Толстого",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Толстого",
+              "distance": 1,
+              "frequency": 1
+            },
+            {
+              "word": "Толстой",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 11,
+          "new_end": 19
+        }
+      ],
+      "entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "text": "Льва Толстого",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_tolstoy"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "text": "Ясной Поляне",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_yasnaya"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Новости Роскомоса из Москвы.",
+      "proposed_text": "Новости Роскосмоса из Москвы.",
+      "changes": [
+        {
+          "start": 8,
+          "end": 17,
+          "wrong": "Роскомоса",
+          "correct": "Роскосмоса",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Роскосмоса",
+              "distance": 1,
+              "frequency": 1
+            },
+            {
+              "word": "Роскосмос",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 8,
+          "new_end": 18
+        }
+      ],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Роскосмоса",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_roscosmos"
+        },
+        {
+          "start": 22,
+          "end": 28,
+          "text": "Москвы",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Казанского федерального университта.",
+      "proposed_text": "История Казанского федерального университета.",
+      "changes": [
+        {
+          "start": 32,
+          "end": 43,
+          "wrong": "университта",
+          "correct": "университета",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "университета",
+              "distance": 1,
+              "frequency": 3
+            },
+            {
+              "word": "университет",
+              "distance": 2,
+              "frequency": 3
+            },
+            {
+              "word": "университете",
+              "distance": 2,
+              "frequency": 2
+            }
+          ],
+          "new_start": 32,
+          "new_end": 44
+        }
+      ],
+      "entities": [
+        {
+          "start": 8,
+          "end": 44,
+          "text": "Казанского федерального университета",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_kfu"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Памятники Александру Пушкину в Санкт-Петебурге.",
+      "proposed_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "changes": [
+        {
+          "start": 31,
+          "end": 46,
+          "wrong": "Санкт-Петебурге",
+          "correct": "Санкт-Петербурге",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Санкт-Петербурге",
+              "distance": 1,
+              "frequency": 8
+            },
+            {
+              "word": "Санкт-Петербург",
+              "distance": 2,
+              "frequency": 1
+            },
+            {
+              "word": "Санкт-Петербурга",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 31,
+          "new_end": 47
+        }
+      ],
+      "entities": [
+        {
+          "start": 10,
+          "end": 28,
+          "text": "Александру Пушкину",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_pushkin"
+        },
+        {
+          "start": 31,
+          "end": 47,
+          "text": "Санкт-Петербурге",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_spb"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Завод КАМЗ в Набережных Челнах.",
+      "proposed_text": "Завод КАМАЗ в Набережных Челнах.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 10,
+          "wrong": "КАМЗ",
+          "correct": "КАМАЗ",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "КАМАЗ",
+              "distance": 1,
+              "frequency": 1
+            },
+            {
+              "word": "как",
+              "distance": 2,
+              "frequency": 2
+            }
+          ],
+          "new_start": 6,
+          "new_end": 11
+        }
+      ],
+      "entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "КАМАЗ",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_kamaz"
+        },
+        {
+          "start": 14,
+          "end": 31,
+          "text": "Набережных Челнах",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_nab_chelny"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Биография Николая Пржевальского и его экспедиции.",
+      "proposed_text": "Биография Николая Пржевальского и его экспедиции.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 10,
+          "end": 31,
+          "text": "Николая Пржевальского",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_przhevalsky"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Работы Владимира Шухова в Москве.",
+      "proposed_text": "Работы Владимира Шухова в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 7,
+          "end": 23,
+          "text": "Владимира Шухова",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_shukhov"
+        },
+        {
+          "start": 26,
+          "end": 32,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Кронштадта рядом с Санкт-Петербургом.",
+      "proposed_text": "История Кронштадта рядом с Санкт-Петербургом.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Кронштадта",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_kronstadt"
+        },
+        {
+          "start": 27,
+          "end": 44,
+          "text": "Санкт-Петербургом",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_spb"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Научные центры Дубны в Московской области.",
+      "proposed_text": "Научные центры Дубны в Московской области.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 15,
+          "end": 20,
+          "text": "Дубны",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_dubna"
+        },
+        {
+          "start": 23,
+          "end": 41,
+          "text": "Московской области",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow_oblast"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Музеи Суздаля во Владимирской области.",
+      "proposed_text": "Музеи Суздаля во Владимирской области.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "text": "Суздаля",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_suzdal"
+        },
+        {
+          "start": 17,
+          "end": 37,
+          "text": "Владимирской области",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_vladimir_oblast"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  ],
+  "rule_B": [
+    {
+      "original_text": "Книги Льва Толстого о Ясной Поляне.",
+      "proposed_text": "Книги Льва Толстого о Ясной Поляне.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "text": "Льва Толстого",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_tolstoy"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "text": "Ясной Поляне",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_yasnaya"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          6,
+          19
+        ],
+        [
+          22,
+          34
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Проекты Роскосмоса в Москве.",
+      "proposed_text": "Проекты Роскосмоса в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Роскосмоса",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_roscosmos"
+        },
+        {
+          "start": 21,
+          "end": 27,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          18
+        ],
+        [
+          21,
+          27
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Казанского федерального университета в Казани.",
+      "proposed_text": "История Казанского федерального университета в Казани.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 44,
+          "text": "Казанского федерального университета",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_kfu"
+        },
+        {
+          "start": 47,
+          "end": 53,
+          "text": "Казани",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_kazan"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          44
+        ],
+        [
+          47,
+          53
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "proposed_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 10,
+          "end": 28,
+          "text": "Александру Пушкину",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_pushkin"
+        },
+        {
+          "start": 31,
+          "end": 47,
+          "text": "Санкт-Петербурге",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_spb"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          10,
+          28
+        ],
+        [
+          31,
+          47
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+      "proposed_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "КАМАЗ",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_kamaz"
+        },
+        {
+          "start": 25,
+          "end": 42,
+          "text": "Набережных Челнах",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_nab_chelny"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          6,
+          11
+        ],
+        [
+          25,
+          42
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Найти последниие новости Газпрома.",
+      "proposed_text": "Найти последние новости Газпрома.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 16,
+          "wrong": "последниие",
+          "correct": "последние",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Последние",
+              "distance": 1,
+              "frequency": 4
+            }
+          ],
+          "new_start": 6,
+          "new_end": 15
+        }
+      ],
+      "entities": [
+        {
+          "start": 24,
+          "end": 32,
+          "text": "Газпрома",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_gazprom"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          25,
+          33
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Показать историю железных дорго России.",
+      "proposed_text": "Показать историю железных дорог России.",
+      "changes": [
+        {
+          "start": 26,
+          "end": 31,
+          "wrong": "дорго",
+          "correct": "дорог",
+          "distance": 2,
+          "alternatives": [
+            {
+              "word": "дорог",
+              "distance": 2,
+              "frequency": 1
+            },
+            {
+              "word": "дороги",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 26,
+          "new_end": 31
+        }
+      ],
+      "entities": [],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Где расположен музй Эрмитаж?",
+      "proposed_text": "Где расположен музей Эрмитаж?",
+      "changes": [
+        {
+          "start": 15,
+          "end": 19,
+          "wrong": "музй",
+          "correct": "музей",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "музей",
+              "distance": 1,
+              "frequency": 6
+            },
+            {
+              "word": "музеи",
+              "distance": 2,
+              "frequency": 2
+            },
+            {
+              "word": "музея",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 15,
+          "new_end": 20
+        }
+      ],
+      "entities": [
+        {
+          "start": 21,
+          "end": 28,
+          "text": "Эрмитаж",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_hermitage"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          20,
+          27
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Найти инормацию о Новосибирском государственном университете.",
+      "proposed_text": "Найти информацию о Новосибирском государственном университете.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 15,
+          "wrong": "инормацию",
+          "correct": "информацию",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Информацию",
+              "distance": 1,
+              "frequency": 7
+            }
+          ],
+          "new_start": 6,
+          "new_end": 16
+        }
+      ],
+      "entities": [
+        {
+          "start": 19,
+          "end": 61,
+          "text": "Новосибирском государственном университете",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_nsu"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          18,
+          60
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Показать извесные книги Фёдора Достоевского.",
+      "proposed_text": "Показать известные книги Фёдора Достоевского.",
+      "changes": [
+        {
+          "start": 9,
+          "end": 17,
+          "wrong": "извесные",
+          "correct": "известные",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Известные",
+              "distance": 1,
+              "frequency": 4
+            },
+            {
+              "word": "известны",
+              "distance": 2,
+              "frequency": 2
+            }
+          ],
+          "new_start": 9,
+          "new_end": 18
+        }
+      ],
+      "entities": [
+        {
+          "start": 25,
+          "end": 44,
+          "text": "Фёдора Достоевского",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_dostoevsky"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          24,
+          43
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Книги Льва Толстго о Ясной Поляне.",
+      "proposed_text": "Книги Льва Толстого о Ясной Поляне.",
+      "changes": [
+        {
+          "start": 11,
+          "end": 18,
+          "wrong": "Толстго",
+          "correct": "Толстого",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Толстого",
+              "distance": 1,
+              "frequency": 1
+            },
+            {
+              "word": "Толстой",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 11,
+          "new_end": 19
+        }
+      ],
+      "entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "text": "Льва Толстого",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_tolstoy"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "text": "Ясной Поляне",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_yasnaya"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          21,
+          33
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Новости Роскомоса из Москвы.",
+      "proposed_text": "Новости Роскосмоса из Москвы.",
+      "changes": [
+        {
+          "start": 8,
+          "end": 17,
+          "wrong": "Роскомоса",
+          "correct": "Роскосмоса",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Роскосмоса",
+              "distance": 1,
+              "frequency": 1
+            },
+            {
+              "word": "Роскосмос",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 8,
+          "new_end": 18
+        }
+      ],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Роскосмоса",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_roscosmos"
+        },
+        {
+          "start": 22,
+          "end": 28,
+          "text": "Москвы",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          21,
+          27
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Казанского федерального университта.",
+      "proposed_text": "История Казанского федерального университета.",
+      "changes": [
+        {
+          "start": 32,
+          "end": 43,
+          "wrong": "университта",
+          "correct": "университета",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "университета",
+              "distance": 1,
+              "frequency": 3
+            },
+            {
+              "word": "университет",
+              "distance": 2,
+              "frequency": 3
+            },
+            {
+              "word": "университете",
+              "distance": 2,
+              "frequency": 2
+            }
+          ],
+          "new_start": 32,
+          "new_end": 44
+        }
+      ],
+      "entities": [
+        {
+          "start": 8,
+          "end": 44,
+          "text": "Казанского федерального университета",
+          "type": "ORG",
+          "source": "dictionary",
+          "entity_id": "org_kfu"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Памятники Александру Пушкину в Санкт-Петебурге.",
+      "proposed_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "changes": [
+        {
+          "start": 31,
+          "end": 46,
+          "wrong": "Санкт-Петебурге",
+          "correct": "Санкт-Петербурге",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Санкт-Петербурге",
+              "distance": 1,
+              "frequency": 8
+            },
+            {
+              "word": "Санкт-Петербург",
+              "distance": 2,
+              "frequency": 1
+            },
+            {
+              "word": "Санкт-Петербурга",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 31,
+          "new_end": 47
+        }
+      ],
+      "entities": [
+        {
+          "start": 10,
+          "end": 28,
+          "text": "Александру Пушкину",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_pushkin"
+        },
+        {
+          "start": 31,
+          "end": 47,
+          "text": "Санкт-Петербурге",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_spb"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          10,
+          28
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Завод КАМЗ в Набережных Челнах.",
+      "proposed_text": "Завод КАМЗ в Набережных Челнах.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 10,
+          "text": "КАМЗ",
+          "type": "ORG",
+          "source": "context_rule"
+        },
+        {
+          "start": 13,
+          "end": 30,
+          "text": "Набережных Челнах",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_nab_chelny"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          6,
+          10
+        ],
+        [
+          13,
+          30
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 6,
+          "end": 10,
+          "word": "КАМЗ",
+          "candidates": [
+            {
+              "word": "камаз",
+              "distance": 1
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Биография Николая Пржевальского и его экспедиции.",
+      "proposed_text": "Биография Николая Пржевальского и его экспедиции.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 10,
+          "end": 31,
+          "text": "Николая Пржевальского",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_przhevalsky"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          10,
+          31
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Работы Владимира Шухова в Москве.",
+      "proposed_text": "Работы Владимира Шухова в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 7,
+          "end": 23,
+          "text": "Владимира Шухова",
+          "type": "PERSON",
+          "source": "dictionary",
+          "entity_id": "person_shukhov"
+        },
+        {
+          "start": 26,
+          "end": 32,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          7,
+          23
+        ],
+        [
+          26,
+          32
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Кронштадта рядом с Санкт-Петербургом.",
+      "proposed_text": "История Кронштадта рядом с Санкт-Петербургом.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Кронштадта",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_kronstadt"
+        },
+        {
+          "start": 27,
+          "end": 44,
+          "text": "Санкт-Петербургом",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_spb"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          18
+        ],
+        [
+          27,
+          44
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Научные центры Дубны в Московской области.",
+      "proposed_text": "Научные центры Дубны в Московской области.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 15,
+          "end": 20,
+          "text": "Дубны",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_dubna"
+        },
+        {
+          "start": 23,
+          "end": 41,
+          "text": "Московской области",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_moscow_oblast"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          15,
+          20
+        ],
+        [
+          23,
+          41
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Музеи Суздаля во Владимирской области.",
+      "proposed_text": "Музеи Суздаля во Владимирской области.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 13,
+          "text": "Суздаля",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_suzdal"
+        },
+        {
+          "start": 17,
+          "end": 37,
+          "text": "Владимирской области",
+          "type": "LOC",
+          "source": "dictionary",
+          "entity_id": "loc_vladimir_oblast"
+        }
+      ],
+      "recognizer": "rule",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          6,
+          13
+        ],
+        [
+          17,
+          37
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  ],
+  "model_A": [
+    {
+      "original_text": "Книги Льва Толстого о Ясной Поляне.",
+      "proposed_text": "Книги Льва Толстого о Ясной Поляне.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "text": "Льва Толстого",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "text": "Ясной Поляне",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Проекты Роскосмоса в Москве.",
+      "proposed_text": "Проекты Роскосмоса в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Роскосмоса",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 21,
+          "end": 27,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Казанского федерального университета в Казани.",
+      "proposed_text": "История Казанского федерального университета в Казани.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 44,
+          "text": "Казанского федерального университета",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 47,
+          "end": 53,
+          "text": "Казани",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "proposed_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 10,
+          "end": 28,
+          "text": "Александру Пушкину",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 31,
+          "end": 47,
+          "text": "Санкт-Петербурге",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+      "proposed_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "КАМАЗ",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 25,
+          "end": 42,
+          "text": "Набережных Челнах",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Найти последниие новости Газпрома.",
+      "proposed_text": "Найти последние новости Газпрома.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 16,
+          "wrong": "последниие",
+          "correct": "последние",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Последние",
+              "distance": 1,
+              "frequency": 4
+            }
+          ],
+          "new_start": 6,
+          "new_end": 15
+        }
+      ],
+      "entities": [
+        {
+          "start": 24,
+          "end": 32,
+          "text": "Газпрома",
+          "type": "ORG",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Показать историю железных дорго России.",
+      "proposed_text": "Показать историю железных дорог России.",
+      "changes": [
+        {
+          "start": 26,
+          "end": 31,
+          "wrong": "дорго",
+          "correct": "дорог",
+          "distance": 2,
+          "alternatives": [
+            {
+              "word": "дорог",
+              "distance": 2,
+              "frequency": 1
+            },
+            {
+              "word": "дороги",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 26,
+          "new_end": 31
+        }
+      ],
+      "entities": [
+        {
+          "start": 17,
+          "end": 31,
+          "text": "железных дорог",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 32,
+          "end": 38,
+          "text": "России",
+          "type": "PERSON",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Где расположен музй Эрмитаж?",
+      "proposed_text": "Где расположен музей Эрмитаж?",
+      "changes": [
+        {
+          "start": 15,
+          "end": 19,
+          "wrong": "музй",
+          "correct": "музей",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "музей",
+              "distance": 1,
+              "frequency": 6
+            },
+            {
+              "word": "музеи",
+              "distance": 2,
+              "frequency": 2
+            },
+            {
+              "word": "музея",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 15,
+          "new_end": 20
+        }
+      ],
+      "entities": [
+        {
+          "start": 21,
+          "end": 28,
+          "text": "Эрмитаж",
+          "type": "ORG",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Найти инормацию о Новосибирском государственном университете.",
+      "proposed_text": "Найти информацию о Новосибирском государственном университете.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 15,
+          "wrong": "инормацию",
+          "correct": "информацию",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Информацию",
+              "distance": 1,
+              "frequency": 7
+            }
+          ],
+          "new_start": 6,
+          "new_end": 16
+        }
+      ],
+      "entities": [
+        {
+          "start": 33,
+          "end": 61,
+          "text": "государственном университете",
+          "type": "ORG",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Показать извесные книги Фёдора Достоевского.",
+      "proposed_text": "Показать известные книги Фёдора Достоевского.",
+      "changes": [
+        {
+          "start": 9,
+          "end": 17,
+          "wrong": "извесные",
+          "correct": "известные",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Известные",
+              "distance": 1,
+              "frequency": 4
+            },
+            {
+              "word": "известны",
+              "distance": 2,
+              "frequency": 2
+            }
+          ],
+          "new_start": 9,
+          "new_end": 18
+        }
+      ],
+      "entities": [
+        {
+          "start": 25,
+          "end": 44,
+          "text": "Фёдора Достоевского",
+          "type": "PERSON",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Книги Льва Толстго о Ясной Поляне.",
+      "proposed_text": "Книги Льва Толстого о Ясной Поляне.",
+      "changes": [
+        {
+          "start": 11,
+          "end": 18,
+          "wrong": "Толстго",
+          "correct": "Толстого",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Толстого",
+              "distance": 1,
+              "frequency": 1
+            },
+            {
+              "word": "Толстой",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 11,
+          "new_end": 19
+        }
+      ],
+      "entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "text": "Льва Толстого",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "text": "Ясной Поляне",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Новости Роскомоса из Москвы.",
+      "proposed_text": "Новости Роскосмоса из Москвы.",
+      "changes": [
+        {
+          "start": 8,
+          "end": 17,
+          "wrong": "Роскомоса",
+          "correct": "Роскосмоса",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Роскосмоса",
+              "distance": 1,
+              "frequency": 1
+            },
+            {
+              "word": "Роскосмос",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 8,
+          "new_end": 18
+        }
+      ],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Роскосмоса",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 22,
+          "end": 28,
+          "text": "Москвы",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Казанского федерального университта.",
+      "proposed_text": "История Казанского федерального университета.",
+      "changes": [
+        {
+          "start": 32,
+          "end": 43,
+          "wrong": "университта",
+          "correct": "университета",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "университета",
+              "distance": 1,
+              "frequency": 3
+            },
+            {
+              "word": "университет",
+              "distance": 2,
+              "frequency": 3
+            },
+            {
+              "word": "университете",
+              "distance": 2,
+              "frequency": 2
+            }
+          ],
+          "new_start": 32,
+          "new_end": 44
+        }
+      ],
+      "entities": [
+        {
+          "start": 8,
+          "end": 44,
+          "text": "Казанского федерального университета",
+          "type": "ORG",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Памятники Александру Пушкину в Санкт-Петебурге.",
+      "proposed_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "changes": [
+        {
+          "start": 31,
+          "end": 46,
+          "wrong": "Санкт-Петебурге",
+          "correct": "Санкт-Петербурге",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Санкт-Петербурге",
+              "distance": 1,
+              "frequency": 8
+            },
+            {
+              "word": "Санкт-Петербург",
+              "distance": 2,
+              "frequency": 1
+            },
+            {
+              "word": "Санкт-Петербурга",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 31,
+          "new_end": 47
+        }
+      ],
+      "entities": [
+        {
+          "start": 10,
+          "end": 28,
+          "text": "Александру Пушкину",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 31,
+          "end": 47,
+          "text": "Санкт-Петербурге",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Завод КАМЗ в Набережных Челнах.",
+      "proposed_text": "Завод КАМАЗ в Набережных Челнах.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 10,
+          "wrong": "КАМЗ",
+          "correct": "КАМАЗ",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "КАМАЗ",
+              "distance": 1,
+              "frequency": 1
+            },
+            {
+              "word": "как",
+              "distance": 2,
+              "frequency": 2
+            }
+          ],
+          "new_start": 6,
+          "new_end": 11
+        }
+      ],
+      "entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "КАМАЗ",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 14,
+          "end": 31,
+          "text": "Набережных Челнах",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Биография Николая Пржевальского и его экспедиции.",
+      "proposed_text": "Биография Николая Пржевальского и его экспедиции.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 10,
+          "end": 31,
+          "text": "Николая Пржевальского",
+          "type": "PERSON",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Работы Владимира Шухова в Москве.",
+      "proposed_text": "Работы Владимира Шухова в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 7,
+          "end": 23,
+          "text": "Владимира Шухова",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 26,
+          "end": 32,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Кронштадта рядом с Санкт-Петербургом.",
+      "proposed_text": "История Кронштадта рядом с Санкт-Петербургом.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Кронштадта",
+          "type": "LOC",
+          "source": "offline_model"
+        },
+        {
+          "start": 27,
+          "end": 44,
+          "text": "Санкт-Петербургом",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Научные центры Дубны в Московской области.",
+      "proposed_text": "Научные центры Дубны в Московской области.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 23,
+          "end": 41,
+          "text": "Московской области",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Музеи Суздаля во Владимирской области.",
+      "proposed_text": "Музеи Суздаля во Владимирской области.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "Музеи",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 6,
+          "end": 13,
+          "text": "Суздаля",
+          "type": "LOC",
+          "source": "offline_model"
+        },
+        {
+          "start": 17,
+          "end": 37,
+          "text": "Владимирской области",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "A",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  ],
+  "model_B": [
+    {
+      "original_text": "Книги Льва Толстого о Ясной Поляне.",
+      "proposed_text": "Книги Льва Толстого о Ясной Поляне.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 19,
+          "text": "Льва Толстого",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "text": "Ясной Поляне",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          6,
+          19
+        ],
+        [
+          22,
+          34
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Проекты Роскосмоса в Москве.",
+      "proposed_text": "Проекты Роскосмоса в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Роскосмоса",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 21,
+          "end": 27,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          18
+        ],
+        [
+          21,
+          27
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Казанского федерального университета в Казани.",
+      "proposed_text": "История Казанского федерального университета в Казани.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 44,
+          "text": "Казанского федерального университета",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 47,
+          "end": 53,
+          "text": "Казани",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          44
+        ],
+        [
+          47,
+          53
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "proposed_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 10,
+          "end": 28,
+          "text": "Александру Пушкину",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 31,
+          "end": 47,
+          "text": "Санкт-Петербурге",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          10,
+          28
+        ],
+        [
+          31,
+          47
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+      "proposed_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "КАМАЗ",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 25,
+          "end": 42,
+          "text": "Набережных Челнах",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          6,
+          11
+        ],
+        [
+          25,
+          42
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Найти последниие новости Газпрома.",
+      "proposed_text": "Найти последние новости Газпрома.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 16,
+          "wrong": "последниие",
+          "correct": "последние",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Последние",
+              "distance": 1,
+              "frequency": 4
+            }
+          ],
+          "new_start": 6,
+          "new_end": 15
+        }
+      ],
+      "entities": [
+        {
+          "start": 24,
+          "end": 32,
+          "text": "Газпрома",
+          "type": "ORG",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          25,
+          33
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Показать историю железных дорго России.",
+      "proposed_text": "Показать историю железных дорго России.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 17,
+          "end": 31,
+          "text": "железных дорго",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 32,
+          "end": 38,
+          "text": "России",
+          "type": "PERSON",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          17,
+          31
+        ],
+        [
+          32,
+          38
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 26,
+          "end": 31,
+          "word": "дорго",
+          "candidates": [
+            {
+              "word": "дорог",
+              "distance": 2
+            },
+            {
+              "word": "дороги",
+              "distance": 2
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Где расположен музй Эрмитаж?",
+      "proposed_text": "Где расположен музей Эрмитаж?",
+      "changes": [
+        {
+          "start": 15,
+          "end": 19,
+          "wrong": "музй",
+          "correct": "музей",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "музей",
+              "distance": 1,
+              "frequency": 6
+            },
+            {
+              "word": "музеи",
+              "distance": 2,
+              "frequency": 2
+            },
+            {
+              "word": "музея",
+              "distance": 2,
+              "frequency": 1
+            }
+          ],
+          "new_start": 15,
+          "new_end": 20
+        }
+      ],
+      "entities": [
+        {
+          "start": 21,
+          "end": 28,
+          "text": "Эрмитаж",
+          "type": "ORG",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          20,
+          27
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Найти инормацию о Новосибирском государственном университете.",
+      "proposed_text": "Найти информацию о Новосибирском государственном университете.",
+      "changes": [
+        {
+          "start": 6,
+          "end": 15,
+          "wrong": "инормацию",
+          "correct": "информацию",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Информацию",
+              "distance": 1,
+              "frequency": 7
+            }
+          ],
+          "new_start": 6,
+          "new_end": 16
+        }
+      ],
+      "entities": [
+        {
+          "start": 33,
+          "end": 61,
+          "text": "государственном университете",
+          "type": "ORG",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          32,
+          60
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Показать извесные книги Фёдора Достоевского.",
+      "proposed_text": "Показать известные книги Фёдора Достоевского.",
+      "changes": [
+        {
+          "start": 9,
+          "end": 17,
+          "wrong": "извесные",
+          "correct": "известные",
+          "distance": 1,
+          "alternatives": [
+            {
+              "word": "Известные",
+              "distance": 1,
+              "frequency": 4
+            },
+            {
+              "word": "известны",
+              "distance": 2,
+              "frequency": 2
+            }
+          ],
+          "new_start": 9,
+          "new_end": 18
+        }
+      ],
+      "entities": [
+        {
+          "start": 25,
+          "end": 44,
+          "text": "Фёдора Достоевского",
+          "type": "PERSON",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          24,
+          43
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Книги Льва Толстго о Ясной Поляне.",
+      "proposed_text": "Книги Льва Толстго о Ясной Поляне.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 18,
+          "text": "Льва Толстго",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 21,
+          "end": 33,
+          "text": "Ясной Поляне",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          6,
+          18
+        ],
+        [
+          21,
+          33
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 11,
+          "end": 18,
+          "word": "Толстго",
+          "candidates": [
+            {
+              "word": "толстого",
+              "distance": 1
+            },
+            {
+              "word": "толстой",
+              "distance": 2
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Новости Роскомоса из Москвы.",
+      "proposed_text": "Новости Роскомоса из Москвы.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 17,
+          "text": "Роскомоса",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 21,
+          "end": 27,
+          "text": "Москвы",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          17
+        ],
+        [
+          21,
+          27
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 8,
+          "end": 17,
+          "word": "Роскомоса",
+          "candidates": [
+            {
+              "word": "роскосмоса",
+              "distance": 1
+            },
+            {
+              "word": "роскосмос",
+              "distance": 2
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Казанского федерального университта.",
+      "proposed_text": "История Казанского федерального университта.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 43,
+          "text": "Казанского федерального университта",
+          "type": "ORG",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          43
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 32,
+          "end": 43,
+          "word": "университта",
+          "candidates": [
+            {
+              "word": "университета",
+              "distance": 1
+            },
+            {
+              "word": "университет",
+              "distance": 2
+            },
+            {
+              "word": "университете",
+              "distance": 2
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Памятники Александру Пушкину в Санкт-Петебурге.",
+      "proposed_text": "Памятники Александру Пушкину в Санкт-Петебурге.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 10,
+          "end": 28,
+          "text": "Александру Пушкину",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 31,
+          "end": 46,
+          "text": "Санкт-Петебурге",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          10,
+          28
+        ],
+        [
+          31,
+          46
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 31,
+          "end": 46,
+          "word": "Санкт-Петебурге",
+          "candidates": [
+            {
+              "word": "санкт-петербурге",
+              "distance": 1
+            },
+            {
+              "word": "санкт-петербург",
+              "distance": 2
+            },
+            {
+              "word": "санкт-петербурга",
+              "distance": 2
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Завод КАМЗ в Набережных Челнах.",
+      "proposed_text": "Завод КАМЗ в Набережных Челнах.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 6,
+          "end": 10,
+          "text": "КАМЗ",
+          "type": "ORG",
+          "source": "offline_model"
+        },
+        {
+          "start": 13,
+          "end": 30,
+          "text": "Набережных Челнах",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          6,
+          10
+        ],
+        [
+          13,
+          30
+        ]
+      ],
+      "entity_recommendations": [
+        {
+          "start": 6,
+          "end": 10,
+          "word": "КАМЗ",
+          "candidates": [
+            {
+              "word": "камаз",
+              "distance": 1
+            }
+          ]
+        }
+      ],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Биография Николая Пржевальского и его экспедиции.",
+      "proposed_text": "Биография Николая Пржевальского и его экспедиции.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 10,
+          "end": 31,
+          "text": "Николая Пржевальского",
+          "type": "PERSON",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          10,
+          31
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Работы Владимира Шухова в Москве.",
+      "proposed_text": "Работы Владимира Шухова в Москве.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 7,
+          "end": 23,
+          "text": "Владимира Шухова",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 26,
+          "end": 32,
+          "text": "Москве",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          7,
+          23
+        ],
+        [
+          26,
+          32
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "История Кронштадта рядом с Санкт-Петербургом.",
+      "proposed_text": "История Кронштадта рядом с Санкт-Петербургом.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "Кронштадта",
+          "type": "LOC",
+          "source": "offline_model"
+        },
+        {
+          "start": 27,
+          "end": 44,
+          "text": "Санкт-Петербургом",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          8,
+          18
+        ],
+        [
+          27,
+          44
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Научные центры Дубны в Московской области.",
+      "proposed_text": "Научные центры Дубны в Московской области.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 23,
+          "end": 41,
+          "text": "Московской области",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          23,
+          41
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    },
+    {
+      "original_text": "Музеи Суздаля во Владимирской области.",
+      "proposed_text": "Музеи Суздаля во Владимирской области.",
+      "changes": [],
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "Музеи",
+          "type": "PERSON",
+          "source": "offline_model"
+        },
+        {
+          "start": 6,
+          "end": 13,
+          "text": "Суздаля",
+          "type": "LOC",
+          "source": "offline_model"
+        },
+        {
+          "start": 17,
+          "end": 37,
+          "text": "Владимирской области",
+          "type": "LOC",
+          "source": "offline_model"
+        }
+      ],
+      "recognizer": "model",
+      "order": "B",
+      "threshold": 2,
+      "use_frequencies": true,
+      "protect_entities": true,
+      "protected_spans": [
+        [
+          0,
+          5
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          17,
+          37
+        ]
+      ],
+      "entity_recommendations": [],
+      "entity_positions_refer_to": "proposed_text"
+    }
+  ]
+}

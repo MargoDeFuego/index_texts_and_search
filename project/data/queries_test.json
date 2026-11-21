@@ -1,0 +1,684 @@
+[
+  {
+    "id": "q21",
+    "category": "clean",
+    "original_text": "Книги Льва Толстого о Ясной Поляне.",
+    "correct_text": "Книги Льва Толстого о Ясной Поляне.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 19,
+        "text": "Льва Толстого",
+        "type": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 34,
+        "text": "Ясной Поляне",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 19,
+        "text": "Льва Толстого",
+        "type": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 34,
+        "text": "Ясной Поляне",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q22",
+    "category": "clean",
+    "original_text": "Проекты Роскосмоса в Москве.",
+    "correct_text": "Проекты Роскосмоса в Москве.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "text": "Роскосмоса",
+        "type": "ORG"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "text": "Роскосмоса",
+        "type": "ORG"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q23",
+    "category": "clean",
+    "original_text": "История Казанского федерального университета в Казани.",
+    "correct_text": "История Казанского федерального университета в Казани.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 44,
+        "text": "Казанского федерального университета",
+        "type": "ORG"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "text": "Казани",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 44,
+        "text": "Казанского федерального университета",
+        "type": "ORG"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "text": "Казани",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q24",
+    "category": "clean",
+    "original_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+    "correct_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 10,
+        "end": 28,
+        "text": "Александру Пушкину",
+        "type": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 47,
+        "text": "Санкт-Петербурге",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 10,
+        "end": 28,
+        "text": "Александру Пушкину",
+        "type": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 47,
+        "text": "Санкт-Петербурге",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q25",
+    "category": "clean",
+    "original_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+    "correct_text": "Завод КАМАЗ расположен в Набережных Челнах.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "КАМАЗ",
+        "type": "ORG"
+      },
+      {
+        "start": 25,
+        "end": 42,
+        "text": "Набережных Челнах",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "КАМАЗ",
+        "type": "ORG"
+      },
+      {
+        "start": 25,
+        "end": 42,
+        "text": "Набережных Челнах",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q26",
+    "category": "common_typo",
+    "original_text": "Найти последниие новости Газпрома.",
+    "correct_text": "Найти последние новости Газпрома.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 16,
+        "wrong": "последниие",
+        "correct": "последние",
+        "kind": "deletion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "text": "Газпрома",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "text": "Газпрома",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q27",
+    "category": "common_typo",
+    "original_text": "Показать историю железных дорго России.",
+    "correct_text": "Показать историю железных дорог России.",
+    "typos": [
+      {
+        "start": 26,
+        "end": 31,
+        "wrong": "дорго",
+        "correct": "дорог",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [],
+    "correct_entities": []
+  },
+  {
+    "id": "q28",
+    "category": "common_typo",
+    "original_text": "Где расположен музй Эрмитаж?",
+    "correct_text": "Где расположен музей Эрмитаж?",
+    "typos": [
+      {
+        "start": 15,
+        "end": 19,
+        "wrong": "музй",
+        "correct": "музей",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "text": "Эрмитаж",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "text": "Эрмитаж",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q29",
+    "category": "common_typo",
+    "original_text": "Найти инормацию о Новосибирском государственном университете.",
+    "correct_text": "Найти информацию о Новосибирском государственном университете.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 15,
+        "wrong": "инормацию",
+        "correct": "информацию",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 18,
+        "end": 60,
+        "text": "Новосибирском государственном университете",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 19,
+        "end": 61,
+        "text": "Новосибирском государственном университете",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q30",
+    "category": "common_typo",
+    "original_text": "Показать извесные книги Фёдора Достоевского.",
+    "correct_text": "Показать известные книги Фёдора Достоевского.",
+    "typos": [
+      {
+        "start": 9,
+        "end": 17,
+        "wrong": "извесные",
+        "correct": "известные",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 24,
+        "end": 43,
+        "text": "Фёдора Достоевского",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 25,
+        "end": 44,
+        "text": "Фёдора Достоевского",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q31",
+    "category": "entity_typo",
+    "original_text": "Книги Льва Толстго о Ясной Поляне.",
+    "correct_text": "Книги Льва Толстого о Ясной Поляне.",
+    "typos": [
+      {
+        "start": 11,
+        "end": 18,
+        "wrong": "Толстго",
+        "correct": "Толстого",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 18,
+        "text": "Льва Толстго",
+        "type": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 33,
+        "text": "Ясной Поляне",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 19,
+        "text": "Льва Толстого",
+        "type": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 34,
+        "text": "Ясной Поляне",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q32",
+    "category": "entity_typo",
+    "original_text": "Новости Роскомоса из Москвы.",
+    "correct_text": "Новости Роскосмоса из Москвы.",
+    "typos": [
+      {
+        "start": 8,
+        "end": 17,
+        "wrong": "Роскомоса",
+        "correct": "Роскосмоса",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "text": "Роскомоса",
+        "type": "ORG"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "text": "Москвы",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "text": "Роскосмоса",
+        "type": "ORG"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "text": "Москвы",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q33",
+    "category": "entity_typo",
+    "original_text": "История Казанского федерального университта.",
+    "correct_text": "История Казанского федерального университета.",
+    "typos": [
+      {
+        "start": 32,
+        "end": 43,
+        "wrong": "университта",
+        "correct": "университета",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 43,
+        "text": "Казанского федерального университта",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 44,
+        "text": "Казанского федерального университета",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q34",
+    "category": "entity_typo",
+    "original_text": "Памятники Александру Пушкину в Санкт-Петебурге.",
+    "correct_text": "Памятники Александру Пушкину в Санкт-Петербурге.",
+    "typos": [
+      {
+        "start": 31,
+        "end": 46,
+        "wrong": "Санкт-Петебурге",
+        "correct": "Санкт-Петербурге",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 31,
+        "end": 46,
+        "text": "Санкт-Петебурге",
+        "type": "LOC"
+      },
+      {
+        "start": 10,
+        "end": 28,
+        "text": "Александру Пушкину",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 31,
+        "end": 47,
+        "text": "Санкт-Петербурге",
+        "type": "LOC"
+      },
+      {
+        "start": 10,
+        "end": 28,
+        "text": "Александру Пушкину",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q35",
+    "category": "entity_typo",
+    "original_text": "Завод КАМЗ в Набережных Челнах.",
+    "correct_text": "Завод КАМАЗ в Набережных Челнах.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 10,
+        "wrong": "КАМЗ",
+        "correct": "КАМАЗ",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "text": "КАМЗ",
+        "type": "ORG"
+      },
+      {
+        "start": 13,
+        "end": 30,
+        "text": "Набережных Челнах",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "КАМАЗ",
+        "type": "ORG"
+      },
+      {
+        "start": 14,
+        "end": 31,
+        "text": "Набережных Челнах",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q36",
+    "category": "rare_correct",
+    "original_text": "Биография Николая Пржевальского и его экспедиции.",
+    "correct_text": "Биография Николая Пржевальского и его экспедиции.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 10,
+        "end": 31,
+        "text": "Николая Пржевальского",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 10,
+        "end": 31,
+        "text": "Николая Пржевальского",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q37",
+    "category": "rare_correct",
+    "original_text": "Работы Владимира Шухова в Москве.",
+    "correct_text": "Работы Владимира Шухова в Москве.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "text": "Владимира Шухова",
+        "type": "PERSON"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "text": "Владимира Шухова",
+        "type": "PERSON"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q38",
+    "category": "rare_correct",
+    "original_text": "История Кронштадта рядом с Санкт-Петербургом.",
+    "correct_text": "История Кронштадта рядом с Санкт-Петербургом.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "text": "Кронштадта",
+        "type": "LOC"
+      },
+      {
+        "start": 27,
+        "end": 44,
+        "text": "Санкт-Петербургом",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "text": "Кронштадта",
+        "type": "LOC"
+      },
+      {
+        "start": 27,
+        "end": 44,
+        "text": "Санкт-Петербургом",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q39",
+    "category": "rare_correct",
+    "original_text": "Научные центры Дубны в Московской области.",
+    "correct_text": "Научные центры Дубны в Московской области.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "text": "Дубны",
+        "type": "LOC"
+      },
+      {
+        "start": 23,
+        "end": 41,
+        "text": "Московской области",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "text": "Дубны",
+        "type": "LOC"
+      },
+      {
+        "start": 23,
+        "end": 41,
+        "text": "Московской области",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q40",
+    "category": "rare_correct",
+    "original_text": "Музеи Суздаля во Владимирской области.",
+    "correct_text": "Музеи Суздаля во Владимирской области.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 13,
+        "text": "Суздаля",
+        "type": "LOC"
+      },
+      {
+        "start": 17,
+        "end": 37,
+        "text": "Владимирской области",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 13,
+        "text": "Суздаля",
+        "type": "LOC"
+      },
+      {
+        "start": 17,
+        "end": 37,
+        "text": "Владимирской области",
+        "type": "LOC"
+      }
+    ]
+  }
+]

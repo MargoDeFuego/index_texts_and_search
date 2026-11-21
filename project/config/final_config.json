@@ -1,0 +1,6 @@
+{
+  "threshold": 2,
+  "use_frequencies": true,
+  "normalization": "lowercase + ё→е; hyphens kept; stopwords kept",
+  "selected_on": "queries_dev.json only"
+}
